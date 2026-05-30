@@ -14,3 +14,8 @@ The lab environment consists of two primary components configured within an isol
 * **Windows Server Management:** Installing and promoting Windows Server to a Domain Controller.
 * **DNS Configuration:** Setting up internal DNS forwarding and resolution.
 * **User & Asset Management:** Creating Organizational Units (OUs), creating domain user accounts, and joining workstations to the domain.
+
+### Prerequisites  
+[Oracle Virtualbox](https://www.virtualbox.org/wiki/Downloads) (Version 7.2.8 r173730)  
+[Windows 10 Media Creation Tool](https://go.microsoft.com/fwlink/?LinkId=2265055)  
+*Host Software stability may vary*
