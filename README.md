@@ -55,4 +55,7 @@ The lab environment consists of two primary components configured within an isol
 
 <img width="1005" height="700" alt="ADHL-4" src="https://github.com/user-attachments/assets/6d1009c3-71f5-4795-924d-416ea24520ee" />  
 
-5. In this guide we will be going with the minimum allocation of resources. Set the **virtual hardware**. The reccomended minimum is 2000MB(2Gb) & 2 CPUs. However, for a greater balance between performance and optimization 4000MB(4Gb) & 4 CPUs shoudl allocated per Machine. Feel free to set it to anything within YOUR green bar
+5. In this guide we will be going with the minimum allocation of resources. Set the **virtual hardware**. The reccomended minimum is 2000MB(2Gb) & 2 CPUs. However, for a greater balance between performance and optimization 4000MB(4Gb) & 4 CPUs should be allocated per Machine. Feel free to set it to anything within YOUR green bar. Exceeding the green bar on your screen will result in your Host System fighting for resources with the Virtual Machine, causing major issues.
+
+<img width="1530" height="403" alt="ADHL-5" src="https://github.com/user-attachments/assets/99d5a81e-047a-4b92-9d28-2b4948664e29" />
+
