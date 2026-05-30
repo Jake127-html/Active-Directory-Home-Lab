@@ -49,6 +49,10 @@ The lab environment consists of two primary components configured within an isol
 
 3. Install **VirtualBox**, leaving all installation options as default. Upon launching the application, select **Expert Mode** when creating a new virtual machine to gain granular control over resource allocation and hardware mapping. 
 
-*(If the Expert Mode toggle is not visible on the main screen, navigate to **File > Preferences** or look for the toggle within the VM creation wizard wizard popup).*
-  
-<img width="415" height="420" alt="ADHL-3" src="https://github.com/user-attachments/assets/..." />
+*(If the Expert Mode toggle is not visible on the main screen, navigate to **File > Preferences**.
+
+4. Create a **"New" Virtual Machine** using the button at the top left. Verify your window matches the screenshot below. In this guide we are skipping guest additions.
+
+<img width="1005" height="700" alt="ADHL-4" src="https://github.com/user-attachments/assets/6d1009c3-71f5-4795-924d-416ea24520ee" />  
+
+5. We will now 
