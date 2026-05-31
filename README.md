@@ -73,4 +73,38 @@ The lab environment consists of two primary components configured within an isol
 
 ### Phase 3: Initial Boot & OS Initialization
 
-8. 
+8. Before the first boot, we must go into the settings and **disable the Network Adapter**. This forces Windows to skip signing signing in to a Microsoft account, instead we opt to create a local account.
+  
+<img width="578" height="331" alt="ADHL-10" src="https://github.com/user-attachments/assets/677d5e93-abb9-4373-9d0a-e05629f6c070" />
+
+9. **Leave as default, next.**
+   
+<img width="313" height="237" alt="ADHL-11" src="https://github.com/user-attachments/assets/cb32f891-870e-46b2-9831-33ddd580545e" />
+
+10. We do not have a **product key**, so we will choose that option.
+
+<img width="322" height="232" alt="ADHL-12" src="https://github.com/user-attachments/assets/e3cfbacd-01c4-4a12-97f4-7bdfa8800c41" />
+
+11. **This is important**. We must install Windows 10 Pro to have the ability to connect to our dc-01 server.
+
+<img width="323" height="234" alt="ADHL-13" src="https://github.com/user-attachments/assets/424b6103-29e0-4825-93b1-ce7b3ba35740" />
+
+12. We will install **Windows only**.
+
+<img width="323" height="245" alt="ADHL-14" src="https://github.com/user-attachments/assets/b504fd31-d453-4489-8db3-cbd19a0ec139" />
+
+13. **Leave as default, next.**
+<img width="326" height="245" alt="ADHL-15" src="https://github.com/user-attachments/assets/9a1ea1ea-936b-4a49-9cb6-372f87b3ce0c" />
+
+14. Windows will now Install, it will take a while. Grab a coffee and let it do its' thing.
+
+<img width="323" height="243" alt="ADHL-16" src="https://github.com/user-attachments/assets/d061cd6c-e1bc-4a92-99b4-05c43cc32895" />
+
+
+
+
+
+
+
+
+
