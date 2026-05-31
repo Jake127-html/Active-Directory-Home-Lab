@@ -44,6 +44,7 @@ The lab environment consists of two primary components configured within an isol
   * [Phase 2: Hypervisor Configuration](#phase-2-hypervisor-configuration)
   * [Phase 3: Initial Boot & OS Initialization](#phase-3-initial-boot-&-os-intialization)
 
+### Note: If, at any point, your cursor inside a Machine dissapears and nothing you do brings it back, either power off the machine, or send the shut down signal.
 
 ## Step-by-Step Deployment Guide
 
@@ -81,7 +82,7 @@ The lab environment consists of two primary components configured within an isol
 
 <img width="661" height="149" alt="ADHL-9" src="https://github.com/user-attachments/assets/7309eeab-b3d7-44ce-92c2-8f01bc8bf6f9" />
 
-### Phase 3: Initial Boot & OS Initialization
+### Phase 3: Initial Boot(Client configuration)
 
 8. Before the first boot, we must go into the settings and **disable the Network Adapter**. This forces Windows to skip signing signing in to a Microsoft account, instead we opt to create a local account.
   
@@ -126,9 +127,44 @@ The lab environment consists of two primary components configured within an isol
 
 18. **This is important.** You must select "I don't have Internet." 
 
-<img width="1030" height="720" alt="ADHL-20" src="https://github.com/user-attachments/assets/4b1d369f-2d7a-4b20-b7ec-0453b5b53a59" />
+<img width="515" height="240" alt="ADHL-20" src="https://github.com/user-attachments/assets/4b1d369f-2d7a-4b20-b7ec-0453b5b53a59" />
 
 If that option is not available, you must disable the NIC. You can do this buy shutting down the machine through **File > Close > Power off the machine**. Once the machine is powered down open the settings cog just like Phase 3 step 8, navigate to Network, and disable the NIC. This **will not** restart the entire process**, you will be brought back to the screen at Phase 3 step 15.
 
-<img width="1035" height="777" alt="ADHL-21" src="https://github.com/user-attachments/assets/f869472f-9028-4a20-a065-1f74000035a6" />
+<img width="517" height="388" alt="ADHL-21" src="https://github.com/user-attachments/assets/f869472f-9028-4a20-a065-1f74000035a6" />
 
+19. **Continue with limited setup again**.
+
+<img width="516" height="388" alt="ADHL-22" src="https://github.com/user-attachments/assets/e2cd6984-edf9-4259-9bd9-c2653f678630" />
+
+20. Set the name of your local account.
+
+<img width="515" height="339" alt="ADHL-23" src="https://github.com/user-attachments/assets/6dd4ca37-d2a5-444a-8d9e-457574e2e133" />
+
+21. Set the **SECURE** password of your local account. I will be following NIST standards. Example: Spouse Truck Mars Gallop https://pages.nist.gov/800-63-3/sp800-63b.html
+
+<img width="1025" height="670" alt="ADHL-24" src="https://github.com/user-attachments/assets/cb5a00f9-b36e-4c51-bfcb-f44ccd0cd193" />
+
+22. Answer 3 **security questions** that you know by heart.
+
+<img width="1027" height="677" alt="ADHL-25" src="https://github.com/user-attachments/assets/15da8d27-7583-40d5-9dc6-78c165af3a80" />
+
+23. Turn **all of this off**, then accept.
+
+<img width="1022" height="676" alt="ADHL-26" src="https://github.com/user-attachments/assets/87973d9f-ca31-4112-bf97-9f9be474d4c2" />
+
+24. **Decline this.**
+
+<img width="1027" height="677" alt="ADHL-27" src="https://github.com/user-attachments/assets/262d092d-ff4f-4ae5-83b5-0844cfc2dacd" />
+
+25. Let it do its' thing for a few minutes.
+
+<img width="1022" height="767" alt="ADHL-28" src="https://github.com/user-attachments/assets/3354471f-4988-4c07-96f4-dfbdcdc9720b" />
+
+26. We are now *done with our client work station. Fully shut down the machine.
+
+<img width="1027" height="768" alt="ADHL-29" src="https://github.com/user-attachments/assets/76f6f467-ff33-4628-86af-051fa7088e0f" />
+
+### Phase 4: Initial Boot(Domain configuration)
+
+27. 
