@@ -42,7 +42,7 @@ The lab environment consists of two primary components configured within an isol
 * [4. Deployment Guide](#-step-by-step-deployment-guide)
   * [Phase 1: Preparing the Installation Media](#phase-1-preparing-the-installation-media)
   * [Phase 2: Hypervisor Configuration](#phase-2-hypervisor-configuration)
-  * [Phase 3: Initial Boot & OS Initialization](#phase-3:-initial-boot-&-os-intialization)
+  * [Phase 3: Initial Boot & OS Initialization](#phase-3-initial-boot-&-os-intialization)
 
 
 ## Step-by-Step Deployment Guide
