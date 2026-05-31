@@ -44,20 +44,31 @@ The lab environment consists of two primary components configured within an isol
   
 2. When prompted, select **Create installation media (ISO file)**. This ensures the hypervisor can mount the operating system installer directly as a virtual disc image.  
 <img width="401" height="356" alt="ADHL-2" src="https://github.com/user-attachments/assets/4eed3808-7860-4309-a4a5-6f8a5295c17d" />  
-
+  
 ### Phase 2: Hypervisor Configuration
-
+  
 3. Install **VirtualBox**, leaving all installation options as default. Upon launching the application, select **Expert Mode** when creating a new virtual machine to gain granular control over resource allocation and hardware mapping. 
-
+  
 *(If the Expert Mode toggle is not visible on the main screen, navigate to **File > Preferences**.
-
+  
 4. Create a **"New" Virtual Machine** using the button at the top left. Verify your window matches the screenshot below. In this guide we are skipping guest additions.
-
-<img width="1005" height="700" alt="ADHL-4" src="https://github.com/user-attachments/assets/6d1009c3-71f5-4795-924d-416ea24520ee" />  
-
+  
+<img width="500" height="350" alt="ADHL-4" src="https://github.com/user-attachments/assets/6d1009c3-71f5-4795-924d-416ea24520ee" />  
+  
 5. Set the **virtual hardware**. In this guide we will be going with the minimum allocation of resources. The reccomended minimum is 2000MB(2Gb) & 2 CPUs. However, for a greater balance between performance and optimization 4000MB(4Gb) & 4 CPUs should be allocated per Machine. Feel free to set it to anything within YOUR green bar. Exceeding the green bar on your screen will result in your Host System fighting for resources with the Virtual Machine, causing major issues.
-
+  
 <img width="1530" height="403" alt="ADHL-5" src="https://github.com/user-attachments/assets/99d5a81e-047a-4b92-9d28-2b4948664e29" />
+  
+6. **Set the virtual hard disk**. Do not pre-allocate the full size, unless you have extensive storage capacity avaiable. We will be using the VDI (VirtuaBox Disk Image), as it is the simplest and most seamless storage format. *Click finish.*
+  
+<img width="758" height="345" alt="ADHL-6" src="https://github.com/user-attachments/assets/bccf9baf-c0ed-4c95-a28b-abe5c6b9434d" />
+  
+7. **Adding the 2nd Machine.** We will name this machine wk-01, which follows the exact same standards at dc-01.
 
-6. **Set the virtual hard disk**. Do not pre-allocate the full size, unless you have a large storage medium, or an extra drive with 2TB storage.
-7. 
+<img width="661" height="155" alt="ADHL-7" src="https://github.com/user-attachments/assets/2e8e2b4c-3843-4146-b1fd-701598da639b" />
+
+<img width="661" height="136" alt="ADHL-8" src="https://github.com/user-attachments/assets/599acf42-4568-49a1-bab1-03aae437fccc" />
+
+<img width="661" height="149" alt="ADHL-9" src="https://github.com/user-attachments/assets/7309eeab-b3d7-44ce-92c2-8f01bc8bf6f9" />
+
+### Phase 3: Preparing the Installation Media
