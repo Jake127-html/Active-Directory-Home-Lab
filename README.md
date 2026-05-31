@@ -129,7 +129,7 @@ The lab environment consists of two primary components configured within an isol
 
 <img width="515" height="240" alt="ADHL-20" src="https://github.com/user-attachments/assets/4b1d369f-2d7a-4b20-b7ec-0453b5b53a59" />
 
-If that option is not available, you must disable the NIC. You can do this buy shutting down the machine through **File > Close > Power off the machine**. Once the machine is powered down open the settings cog just like Phase 3 step 8, navigate to Network, and disable the NIC. This **will not** restart the entire process**, you will be brought back to the screen at Phase 3 step 15.
+If that option is not available, you must disable the NIC. You can do this buy shutting down the machine through **File > Close > Power off the machine**. Once the machine is powered down open the settings cog just like Phase 3 step 8, navigate to Network, and disable the NIC. This **will not** restart the entire process**, you will be brought back to the screen at Phase 3: Step 8.
 
 <img width="517" height="388" alt="ADHL-21" src="https://github.com/user-attachments/assets/f869472f-9028-4a20-a065-1f74000035a6" />
 
@@ -167,4 +167,6 @@ If that option is not available, you must disable the NIC. You can do this buy s
 
 ### Phase 4: Initial Boot(Domain configuration)
 
-27. 
+27. Before starting dc-01, disable the NIC just like we did in Phase 3: step 8.
+
+28. 
