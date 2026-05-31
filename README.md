@@ -35,6 +35,16 @@ The lab environment consists of two primary components configured within an isol
 
 ---
 
+## 📌 Table of Contents
+* [1. Infrastructure Architecture](#-infrastructure-architecture)
+* [2. Key Skills Demonstrated](#-key-skills-demonstrated)
+* [3. Prerequisites & Lab Assets](#-prerequisites--lab-assets)
+* [4. Deployment Guide](#-step-by-step-deployment-guide)
+  * [Phase 1: Preparing the Installation Media](#phase-1-preparing-the-installation-media)
+  * [Phase 2: Hypervisor Configuration](#phase-2-hypervisor-configuration)
+  * [Phase 3: Initial Boot & OS Initialization](#phase-3:-initial-boot-&-os-intialization)
+
+
 ## Step-by-Step Deployment Guide
 
 ### Phase 1: Preparing the Installation Media
@@ -94,17 +104,27 @@ The lab environment consists of two primary components configured within an isol
 <img width="323" height="245" alt="ADHL-14" src="https://github.com/user-attachments/assets/b504fd31-d453-4489-8db3-cbd19a0ec139" />
 
 13. **Leave as default, next.**
+
 <img width="326" height="245" alt="ADHL-15" src="https://github.com/user-attachments/assets/9a1ea1ea-936b-4a49-9cb6-372f87b3ce0c" />
 
-14. Windows will now Install, it will take a while. Grab a coffee and let it do its' thing.
+15. Windows will now Install, it will take a while. Grab a coffee and let it do its' thing.
 
 <img width="323" height="243" alt="ADHL-16" src="https://github.com/user-attachments/assets/d061cd6c-e1bc-4a92-99b4-05c43cc32895" />
 
+15. Choose your region, this does not impact lab functionality.
+
+<img width="520" height="341" alt="ADHL-17" src="https://github.com/user-attachments/assets/82305e10-284a-4bea-88dc-63d292234d1d" />
+
+16. Choose your keyboard layout.
+
+<img width="513" height="340" alt="ADHL-18" src="https://github.com/user-attachments/assets/55a25e87-4a52-4955-81b9-37fe99a21fe7" />
+
+17. Skip or add a layout.
+
+<img width="511" height="336" alt="ADHL-19" src="https://github.com/user-attachments/assets/cf2b8874-e998-49d5-a86b-af6a37888710" />
 
 
-
-
-
+18. 
 
 
 
