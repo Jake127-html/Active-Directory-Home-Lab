@@ -124,7 +124,11 @@ The lab environment consists of two primary components configured within an isol
 <img width="511" height="336" alt="ADHL-19" src="https://github.com/user-attachments/assets/cf2b8874-e998-49d5-a86b-af6a37888710" />
 
 
-18. 
+18. **This is important.** You must select "I don't have Internet." 
 
+<img width="1030" height="720" alt="ADHL-20" src="https://github.com/user-attachments/assets/4b1d369f-2d7a-4b20-b7ec-0453b5b53a59" />
 
+If that option is not available, you must disable the NIC. You can do this buy shutting down the machine through **File > Close > Power off the machine**. Once the machine is powered down open the settings cog just like Phase 3 step 8, navigate to Network, and disable the NIC. This **will not** restart the entire process**, you will be brought back to the screen at Phase 3 step 15.
+
+<img width="1035" height="777" alt="ADHL-21" src="https://github.com/user-attachments/assets/f869472f-9028-4a20-a065-1f74000035a6" />
 
