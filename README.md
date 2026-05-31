@@ -71,4 +71,6 @@ The lab environment consists of two primary components configured within an isol
 
 <img width="661" height="149" alt="ADHL-9" src="https://github.com/user-attachments/assets/7309eeab-b3d7-44ce-92c2-8f01bc8bf6f9" />
 
-### Phase 3: Preparing the Installation Media
+### Phase 3: Initial Boot & OS Initialization
+
+8. 
