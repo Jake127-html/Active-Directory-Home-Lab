@@ -323,3 +323,9 @@ Fill out your own version of the following information. To simulate an enterpris
 
 <img width="1020" height="765" alt="ADHL-55" src="https://github.com/user-attachments/assets/7c01fa04-b0b6-4f36-a5ea-ca54314c9c1e" />
 
+59. Next, we will set the password. First, uncheck "User must change password at next logon." Then, check "User cannot change password." This reduces human error, as we will assign the user our own password.
+
+60. Remember to write down all passwords or store them in a secure place for only your eyes.
+
+
+<img width="1020" height="770" alt="ADHL-56" src="https://github.com/user-attachments/assets/25d93a14-9d0a-4454-bc7a-ae561c4b73ee" />
