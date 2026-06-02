@@ -302,3 +302,24 @@ Your window should look as below, and it should say "Configuration required. Ins
 53. **Important, run the wk-01 Machine while dc-01 is still running.** This is so we can join wk-01 to the Domain Enterprise.com. Since we completed Phase 5: Step 40, we don't need to change the VirtualBox Adapter 1 settings again.
 
 54. When prompted turn off all privacy settings then accept.
+
+55. You should now be logged in. Just like Phase 5: Step 42, modify the IPv4 to the following manual settings:
+
+<img width="1020" height="772" alt="ADHL-51" src="https://github.com/user-attachments/assets/59e255ab-558e-4635-aa1d-f3b5a0b85335" />
+
+56. In the Windows search bar type "Advanced System Settings" and open the control panel. Go to **Computer name > Change > Domain > ENTERPRISE > set this computer's name to wk-01** Then click "Ok" and enter the credential when prompted. The username is Administrator by default.
+
+<img width="1025" height="765" alt="ADHL-52" src="https://github.com/user-attachments/assets/778003b3-571e-49c7-b58c-daa8f2436c40" />
+
+Once you get the confirmation message you will be prompted to restart multiple times. Restart now to apply changes.  
+You will now have the option to login as "Other User" to ENTERPRISE.  
+
+### Phase 7: Creating our first Employee Account
+
+57. We will now go back to dc-01 and open "Active Directory Users and Computers" from our taskbar since we pinned it in Phase 5: Step 43.
+
+58. Double click on "Active Directory Users and Computers" then navigate to **Enterprise.com > Users > Right click > New > User**
+Fill out your own version of the following information. To simulate an enterprise setting, your logon name should be in the format of first letter of first name + last name.
+
+<img width="1020" height="765" alt="ADHL-55" src="https://github.com/user-attachments/assets/7c01fa04-b0b6-4f36-a5ea-ca54314c9c1e" />
+
