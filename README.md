@@ -170,24 +170,31 @@ If that option is not available, you must disable the NIC. You can do this buy s
 27. Before starting dc-01, disable the NIC just like we did in Phase 3: step 8.
 
 28. Start dc-01, click **next and "Install**."
-<img width="1017" height="770" alt="ADHL-30" src="https://github.com/user-attachments/assets/77cd05d7-e0cf-4417-a540-81a953b55e96" />
+<img width="508" height="385" alt="ADHL-30" src="https://github.com/user-attachments/assets/77cd05d7-e0cf-4417-a540-81a953b55e96" />
 
 29. **This is important.** Select Windows Server 2019 Standard Evaluation (**Desktop Experience**.) Then, next.
 
-<img width="1027" height="772" alt="ADHL-31" src="https://github.com/user-attachments/assets/0c91e71e-8182-49ad-870c-7fb3429d996a" />
+<img width="513" height="386" alt="ADHL-31" src="https://github.com/user-attachments/assets/0c91e71e-8182-49ad-870c-7fb3429d996a" />
 
 30. **Accept the terms**, then next.
 
-<img width="1022" height="765" alt="ADHL-32" src="https://github.com/user-attachments/assets/87e51866-33b8-4960-b362-90187805fb6e" />
+<img width="511" height="382" alt="ADHL-32" src="https://github.com/user-attachments/assets/87e51866-33b8-4960-b362-90187805fb6e" />
 
 31. Choose **Custom: Install Windows Only (advanced)**
 
-<img width="1017" height="767" alt="ADHL-33" src="https://github.com/user-attachments/assets/dccebf94-cf48-4326-bb4b-75b2c243b287" />
+<img width="508" height="383" alt="ADHL-33" src="https://github.com/user-attachments/assets/dccebf94-cf48-4326-bb4b-75b2c243b287" />
 
 32. Verify you see only **one drive**, next.
 
-<img width="1023" height="772" alt="ADHL-34" src="https://github.com/user-attachments/assets/455976ce-83bd-465d-89f6-583dd5f1ebd9" />
+<img width="511" height="336" alt="ADHL-34" src="https://github.com/user-attachments/assets/455976ce-83bd-465d-89f6-583dd5f1ebd9" />
 
 33. Let it do its' thing for a few minutes.
 
-<img width="1020" height="772" alt="ADHL-35" src="https://github.com/user-attachments/assets/67e446c7-2703-475f-be74-6f1ecbe3e844" />
+<img width="520" height="386" alt="ADHL-35" src="https://github.com/user-attachments/assets/67e446c7-2703-475f-be74-6f1ecbe3e844" />
+
+Note: **After installation** I actually ran into a crash and hit "OK" to terminate the program. Then, I was able to start the machine with no problem.
+
+34. We will now **set the Administrator password.** However, once our Active Directory Domain is set up in the future, we will not be utilizing a single Administrator account for management of our Domain. This is in line with two major Information Security concepts Principle of Least Privelage, and Seperation of Duties. 
+
+<img width="510" height="383" alt="ADHL-36" src="https://github.com/user-attachments/assets/fd5691fe-3aa9-49ea-a060-c66ca17a781c" />
+
