@@ -325,7 +325,11 @@ Fill out your own version of the following information. To simulate an enterpris
 
 59. Next, we will set the password. First, uncheck "User must change password at next logon." Then, check "User cannot change password." This reduces human error, as we will assign the user our own password.
 
-60. Remember to write down all passwords or store them in a secure place for only your eyes.
+60. Remember to write down all passwords or store them in a secure place for only your eyes. Finish, then go back to wk-01.
 
 
 <img width="1020" height="770" alt="ADHL-56" src="https://github.com/user-attachments/assets/25d93a14-9d0a-4454-bc7a-ae561c4b73ee" />
+
+61. Navigate to "other user" then login to the account we just created. It will load for a few minutes then you will arrive at the desktop.
+
+Congratulations, you now have the foundations of a legit IT deployment in Active Directory at your disposal. 
