@@ -236,6 +236,35 @@ Do the exact same thing for wk-01.
 
 41. Start dc-01 and login.
 
-42. We will now configure the proper IPv4 Settings. Right click on the Windows icon > Network Connections > Change Adapter Options > Right click Ethernet > Properties > Double click Internet Protocol Version 4 (TCP/IP)
+42. We will now configure the proper IPv4 Settings. **Right click on the Windows icon > Network Connections > Change Adapter Options > Right click Ethernet > Properties > Double click Internet Protocol Version 4 (TCP/IP)**
 
 <img width="511" height="366" alt="ADHL-42" src="https://github.com/user-attachments/assets/40dfaa33-0ef0-414c-bd92-201feed918ea" />
+
+<img width="1020" height="725" alt="ADHL-43" src="https://github.com/user-attachments/assets/50fdefd9-04cb-4b05-9053-1bb56b8bfb20" />
+
+
+**Use the following IP address:**
+- IP Address: 10.10.10.10
+- Subnet Mash: 255.255.255.0
+- Default Gateway: 10.10.10.1
+
+**Use the following DNS server addresses**
+- Preferred DNS Server: 10.10.10.10
+
+✅ *Validate Settings upon exit!*
+
+43. Now we will set up Active Directory. **If you don't see Server Manager** search for it on the Windows search bar.  
+Note: I recommend you pin Server Manager to the task bar so it's easier and faster to access.  
+
+**Manage > Add roles and features**
+Only pay attention to the following:  
+- Installation type: Role-based or feature-based installation
+- Server Roles: A.) Active Directory Domain Services B.) DNS Server
+- **Confirmation > Install**
+<img width="1018" height="765" alt="ADHL-44" src="https://github.com/user-attachments/assets/f405eace-e74f-4afd-a0fa-de0f51da9d74" />
+  
+Your window should look like this:  
+
+
+
+<img width="787" height="704" alt="ADHL-45" src="https://github.com/user-attachments/assets/3b6553f5-4c75-499d-8da1-bbfb509072ef" />
