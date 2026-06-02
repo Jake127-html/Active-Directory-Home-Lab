@@ -263,8 +263,20 @@ Only pay attention to the following:
 - **Confirmation > Install**
 <img width="1018" height="765" alt="ADHL-44" src="https://github.com/user-attachments/assets/f405eace-e74f-4afd-a0fa-de0f51da9d74" />
   
-Your window should look like this:  
-
-
+Your window should look as below, and it should say "Configuration required. Install succeeded on WIN-X."
 
 <img width="787" height="704" alt="ADHL-45" src="https://github.com/user-attachments/assets/3b6553f5-4c75-499d-8da1-bbfb509072ef" />
+
+44. In the server manager window there should be a flag with a yellow warning triangle on it. Click it then click "Promote this server to a domain controller."
+
+45. Select "add a new forest" and enter the root domain name of: Enterprise.com
+
+<img width="757" height="552" alt="ADHL-46" src="https://github.com/user-attachments/assets/901c6369-1f83-4bfe-8a3e-893f6964eeae" />
+
+46. Next, then create a new password when prompted. This is different then the password we used login to dc-01. It is used for Domain maintnence purposes. Next.
+
+<img width="757" height="555" alt="ADHL-47" src="https://github.com/user-attachments/assets/3462ce9a-5b32-4639-b617-f51e2416c568" />
+
+47. Next, until you see an install button. There will be a bunch of warnings. Ignore these.
+
+<img width="757" height="555" alt="ADHL-48" src="https://github.com/user-attachments/assets/24b62761-6b4f-4b70-ae4f-f7ab988fecc6" />
