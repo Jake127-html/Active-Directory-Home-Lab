@@ -143,30 +143,51 @@ If that option is not available, you must disable the NIC. You can do this buy s
 
 21. Set the **SECURE** password of your local account. I will be following NIST standards. Example: Spouse Truck Mars Gallop https://pages.nist.gov/800-63-3/sp800-63b.html
 
-<img width="1025" height="670" alt="ADHL-24" src="https://github.com/user-attachments/assets/cb5a00f9-b36e-4c51-bfcb-f44ccd0cd193" />
+<img width="512" height="335" alt="ADHL-24" src="https://github.com/user-attachments/assets/cb5a00f9-b36e-4c51-bfcb-f44ccd0cd193" />
 
 22. Answer 3 **security questions** that you know by heart.
 
-<img width="1027" height="677" alt="ADHL-25" src="https://github.com/user-attachments/assets/15da8d27-7583-40d5-9dc6-78c165af3a80" />
+<img width="513" height="338" alt="ADHL-25" src="https://github.com/user-attachments/assets/15da8d27-7583-40d5-9dc6-78c165af3a80" />
 
 23. Turn **all of this off**, then accept.
 
-<img width="1022" height="676" alt="ADHL-26" src="https://github.com/user-attachments/assets/87973d9f-ca31-4112-bf97-9f9be474d4c2" />
+<img width="512" height="338" alt="ADHL-26" src="https://github.com/user-attachments/assets/87973d9f-ca31-4112-bf97-9f9be474d4c2" />
 
 24. **Decline this.**
 
-<img width="1027" height="677" alt="ADHL-27" src="https://github.com/user-attachments/assets/262d092d-ff4f-4ae5-83b5-0844cfc2dacd" />
+<img width="513" height="388" alt="ADHL-27" src="https://github.com/user-attachments/assets/262d092d-ff4f-4ae5-83b5-0844cfc2dacd" />
 
 25. Let it do its' thing for a few minutes.
 
-<img width="1022" height="767" alt="ADHL-28" src="https://github.com/user-attachments/assets/3354471f-4988-4c07-96f4-dfbdcdc9720b" />
+<img width="512" height="383" alt="ADHL-28" src="https://github.com/user-attachments/assets/3354471f-4988-4c07-96f4-dfbdcdc9720b" />
 
 26. We are now *done with our client work station. Fully shut down the machine.
 
-<img width="1027" height="768" alt="ADHL-29" src="https://github.com/user-attachments/assets/76f6f467-ff33-4628-86af-051fa7088e0f" />
+<img width="513" height="384" alt="ADHL-29" src="https://github.com/user-attachments/assets/76f6f467-ff33-4628-86af-051fa7088e0f" />
 
 ### Phase 4: Initial Boot(Domain configuration)
 
 27. Before starting dc-01, disable the NIC just like we did in Phase 3: step 8.
 
-28. 
+28. Start dc-01, click **next and "Install**."
+<img width="1017" height="770" alt="ADHL-30" src="https://github.com/user-attachments/assets/77cd05d7-e0cf-4417-a540-81a953b55e96" />
+
+29. **This is important.** Select Windows Server 2019 Standard Evaluation (**Desktop Experience**.) Then, next.
+
+<img width="1027" height="772" alt="ADHL-31" src="https://github.com/user-attachments/assets/0c91e71e-8182-49ad-870c-7fb3429d996a" />
+
+30. **Accept the terms**, then next.
+
+<img width="1022" height="765" alt="ADHL-32" src="https://github.com/user-attachments/assets/87e51866-33b8-4960-b362-90187805fb6e" />
+
+31. Choose **Custom: Install Windows Only (advanced)**
+
+<img width="1017" height="767" alt="ADHL-33" src="https://github.com/user-attachments/assets/dccebf94-cf48-4326-bb4b-75b2c243b287" />
+
+32. Verify you see only **one drive**, next.
+
+<img width="1023" height="772" alt="ADHL-34" src="https://github.com/user-attachments/assets/455976ce-83bd-465d-89f6-583dd5f1ebd9" />
+
+33. Let it do its' thing for a few minutes.
+
+<img width="1020" height="772" alt="ADHL-35" src="https://github.com/user-attachments/assets/67e446c7-2703-475f-be74-6f1ecbe3e844" />
