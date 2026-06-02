@@ -194,7 +194,7 @@ If that option is not available, you must disable the NIC. You can do this buy s
 
 Note: **After installation** I actually ran into a crash and hit "OK" to terminate the program. Then, I was able to start the machine with no problem.
 
-34. We will now **set the Administrator password.** However, once our Active Directory Domain is set up in the future, we will not be utilizing a single Administrator account for management of our Domain. This is in line with two major Information Security concepts Principle of Least Privelage, and Seperation of Duties. 
+34. We will now **set the Administrator password.** However, once our Active Directory Domain is set up in the future, we will not be utilizing a single Administrator account for management of our Domain. This is in line with two major Information Security concepts Principle of Least Privelage, and Seperation of Duties. This is also called hardening, and will be in a seperate guide.
 
 <img width="510" height="383" alt="ADHL-36" src="https://github.com/user-attachments/assets/fd5691fe-3aa9-49ea-a060-c66ca17a781c" />
 
@@ -284,3 +284,21 @@ Your window should look as below, and it should say "Configuration required. Ins
 48. It will prompt you that the computer will restart because Active Directory Domain was installed. The computer will restart and then it will load for a long time on boot.
 
 <img width="757" height="555" alt="ADHL-48" src="https://github.com/user-attachments/assets/9bc49e0c-dd50-4758-8592-d3c97f003edb" />
+
+49. Log back in to dc-01 then open the server manager and then **tools > Group Policy Management + Active Directory Users and Computers**. Pin to the task bar, both of the windows that open, for easier access. Then in tools, open DNS.
+
+50. Right click WIN-XXXX and navigate to "Forwarders".
+
+<img width="750" height="522" alt="ADHL-49" src="https://github.com/user-attachments/assets/587534a4-921a-444c-beb9-a7c19f02e12e" />
+
+51. Click edit, then type in "8.8.8.8" (Google's public DNS) to the blank bar and then click "Ok." It will take a few seconds to verify.
+
+<img width="750" height="527" alt="ADHL-50" src="https://github.com/user-attachments/assets/02eb9028-9709-4873-a885-37ed1fe59b2d" />
+
+### Phase 6: Joining the Domain
+
+52.  We will now run the initial setup of wk-01.
+    
+53. **Important, run the wk-01 Machine while dc-01 is still running.** This is so we can join wk-01 to the Domain Enterprise.com. Since we completed Phase 5: Step 40, we don't need to change the VirtualBox Adapter 1 settings again.
+
+54. When prompted turn off all privacy settings then accept.
