@@ -277,6 +277,10 @@ Your window should look as below, and it should say "Configuration required. Ins
 
 <img width="757" height="555" alt="ADHL-47" src="https://github.com/user-attachments/assets/3462ce9a-5b32-4639-b617-f51e2416c568" />
 
-47. Next, until you see an install button. There will be a bunch of warnings. Ignore these.
+47. Next, until you see an install button. There will be a bunch of warnings. Ignore these. Install.
 
 <img width="757" height="555" alt="ADHL-48" src="https://github.com/user-attachments/assets/24b62761-6b4f-4b70-ae4f-f7ab988fecc6" />
+
+48. It will prompt you that the computer will restart because Active Directory Domain was installed. The computer will restart and then it will load for a long time on boot.
+
+<img width="757" height="555" alt="ADHL-48" src="https://github.com/user-attachments/assets/9bc49e0c-dd50-4758-8592-d3c97f003edb" />
