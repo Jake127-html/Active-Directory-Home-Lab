@@ -216,3 +216,18 @@ Note: If you are using the minimum allocated resources you may experience sudden
 
 <img width="512" height="397" alt="ADHL-40" src="https://github.com/user-attachments/assets/69c4beb3-a3d4-4d95-9887-3a374e7b404e" />
 
+39. Click create and then fill out and verify the following details:  
+Name: Enterprise_NAT  
+IPv4 Prefix: 10.10.10.0/24  
+- [ ] Enable DHCP (Leave unchecked)
+  
+<img width="928" height="443" alt="ADHL-41" src="https://github.com/user-attachments/assets/67b903a3-5f1c-44e6-9204-e2e44d7357d7" />
+
+40. Navigate back to dc-01 and open **Settings > Network > Adapter 1 >**  
+✅ Enable Network Adapter  
+Attatched to: NAT Network  
+Name: Enterprise_NAT  
+Adapter Type: **Ignore**  
+Promiscous Mode: Deny  
+MAC Address: **Ignore**  
+Virtual Cable Connected: ✅  
