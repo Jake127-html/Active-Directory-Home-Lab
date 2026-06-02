@@ -198,3 +198,21 @@ Note: **After installation** I actually ran into a crash and hit "OK" to termina
 
 <img width="510" height="383" alt="ADHL-36" src="https://github.com/user-attachments/assets/fd5691fe-3aa9-49ea-a060-c66ca17a781c" />
 
+Note: If you are using the minimum allocated resources you may experience sudden and severe lag on the following login screen and Desktop. This is normal, and will dissipate shortly. 
+
+35. To login we have three options. 1.) On your keyboard press Ctrl(Host key combo) + Del. Ctrl is the default Host key combo. You can change this in **File > Preferences > Input > Virtual Machine > Host Key Combo** 2.) **Input > Keyboard > Insert Ctrl-Alt-Delete** 3.) **Input > Keyboard > Soft Keyboard > Click on Ctrl + Alt + Delete (Not backspace)** If your keyboard does not have the ability to press these key combos, you should change your Host Key combo. 
+
+<img width="510" height="385" alt="ADHL-37" src="https://github.com/user-attachments/assets/96aed23f-b105-43cf-911c-1507fe719e85" />
+
+36. Completely shut down Windows or the Machine (**File > Close > Send the shutdown signal**) Do not save the Machine state.
+
+### Phase 5: Server Configuration
+
+37. From the Machines screen where your dc-01 and wk-01 are listed, click the Network menu. All of the icons look the same, it is the third one up, fifth down.
+
+<img width="527" height="473" alt="ADHL-39" src="https://github.com/user-attachments/assets/e176ea0a-3db3-43d8-a137-cf43f46da242" />
+
+38. Click NAT Networks
+
+<img width="512" height="397" alt="ADHL-40" src="https://github.com/user-attachments/assets/69c4beb3-a3d4-4d95-9887-3a374e7b404e" />
+
