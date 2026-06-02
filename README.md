@@ -212,7 +212,7 @@ Note: If you are using the minimum allocated resources you may experience sudden
 
 <img width="527" height="473" alt="ADHL-39" src="https://github.com/user-attachments/assets/e176ea0a-3db3-43d8-a137-cf43f46da242" />
 
-38. Click NAT Networks
+38. Click NAT Networks.
 
 <img width="512" height="397" alt="ADHL-40" src="https://github.com/user-attachments/assets/69c4beb3-a3d4-4d95-9887-3a374e7b404e" />
 
@@ -231,3 +231,11 @@ Adapter Type: **Ignore**
 Promiscous Mode: Deny  
 MAC Address: **Ignore**  
 Virtual Cable Connected: ✅  
+  
+Do the exact same thing for wk-01.  
+
+41. Start dc-01 and login.
+
+42. We will now configure the proper IPv4 Settings. Right click on the Windows icon > Network Connections > Change Adapter Options > Right click Ethernet > Properties > Double click Internet Protocol Version 4 (TCP/IP)
+
+<img width="511" height="366" alt="ADHL-42" src="https://github.com/user-attachments/assets/40dfaa33-0ef0-414c-bd92-201feed918ea" />
