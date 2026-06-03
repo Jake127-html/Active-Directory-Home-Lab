@@ -343,4 +343,6 @@ Congratulations, you now have the foundations of a legit IT deployment in Active
 
 
 
-<a name="bottom"></a>
+<a name="bottom"></a>  
+  
+<p align="right"><a href="#top">⬆️ Top of page</a></p>  
