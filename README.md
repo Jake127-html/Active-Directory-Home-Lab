@@ -38,6 +38,8 @@ The lab environment consists of two primary components configured within an isol
 
 ---
 
+[![Deployment Guide](https://img.shields.io/badge/%F0%9F%93%96-Open%20Lab%20Deployment%20Guide-blue?style=flat-square&size=large)](docs/lab-deployment-guide.md)
+
 <a name="bottom"></a>  
   
 <p align="right"><a href="#top">⬆️ Top of page</a></p>  
