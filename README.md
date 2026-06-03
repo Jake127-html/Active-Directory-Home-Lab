@@ -1,3 +1,5 @@
+[![Run Lab](https://img.shields.io/badge/Run_Lab-Deployment_Guide-blue?style=for-the-badge&logo=virtualbox&logoColor=white)](docs/lab-deployment-guide.md)
+  
 <a name="top"></a>
 <p align="right"><a href="#bottom">⬇️ Bottom of page</a></p>  
   
@@ -37,8 +39,6 @@ The lab environment consists of two primary components configured within an isol
 | `17763.3650...SERVER_EVAL_x64FRE_en-us.iso` | Windows Server 2019 Target Image |
 
 ---
-
-[![Deployment Guide](https://img.shields.io/badge/%F0%9F%93%96-Open%20Lab%20Deployment%20Guide-blue?style=flat-square&size=large)](docs/lab-deployment-guide.md)
 
 <a name="bottom"></a>  
   
