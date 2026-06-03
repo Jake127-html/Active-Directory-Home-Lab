@@ -8,8 +8,8 @@ The lab environment consists of two primary components configured within an isol
 
 | Asset / Role | Hostname (Recommended) | Operating System | Network Configuration | Core Services |
 | :--- | :--- | :--- | :--- | :--- |
-| **Domain Controller** | `lab-dc01` | Windows Server 2019 | Static IP (`172.16.0.1`) | AD DS, DNS |
-| **Client Workstation** | `lab-cl01` | Windows 10 Pro | Static IP (`172.16.0.2`) | Domain Member |
+| **Domain Controller** | `dc-01` | Windows Server 2019 | Static IP (`10.10.10.10`) | AD DS, DNS |
+| **Client Workstation** | `wk-01` | Windows 10 Pro | Static IP (`10.10.10.11`) | Domain Member |
 
 ## Key Skills Demonstrated
 * **Virtual Networking:** Configuring internal/host-only networks to ensure isolated, secure communication between VMs.
