@@ -42,7 +42,7 @@ The lab environment consists of two primary components configured within an isol
 * [4. Deployment Guide](#-step-by-step-deployment-guide)
   * [Phase 1: Preparing the Installation Media](#phase-1-preparing-the-installation-media)
   * [Phase 2: Hypervisor Configuration](#phase-2-hypervisor-configuration)
-  * [Phase 3: Initial Boot & OS Initialization](#phase-3-initial-boot-&-os-intialization)
+  * [Phase 3: Initial Boot(Client configuration)](#phase-3-initial-boot(client-configuration))
 
 ### Note: If, at any point, your cursor inside a Machine dissapears and nothing you do brings it back, either power off the machine, or send the shut down signal.
 
