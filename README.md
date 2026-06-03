@@ -1,3 +1,6 @@
+<a name="top"></a>
+<p align="right"><a href="#bottom">⬇️ Bottom of page</a></p>  
+  
 # Active Directory & Client VM Lab Setup
 
 ## Overview
@@ -337,3 +340,7 @@ Fill out your own version of the following information. To simulate an enterpris
 61. Navigate to "other user" then login to the account we just created. It will load for a few minutes then you will arrive at the desktop.
 
 Congratulations, you now have the foundations of a legit IT deployment in Active Directory at your disposal. 
+
+
+
+<a name="bottom"></a>
