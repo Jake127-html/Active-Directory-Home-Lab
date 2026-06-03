@@ -67,7 +67,8 @@ The lab environment consists of two primary components configured within an isol
 <img width="401" height="356" alt="ADHL-2" src="https://github.com/user-attachments/assets/4eed3808-7860-4309-a4a5-6f8a5295c17d" />  
 
 <a name="phase-2"></a>
-  
+<p align="right"><a href="#phase-3">⬇️ Next phase</a></p>  
+
 ### Phase 2: Hypervisor Configuration
   
 3. Install **VirtualBox**, leaving all installation options as default. Upon launching the application, select **Expert Mode** when creating a new virtual machine to gain granular control over resource allocation and hardware mapping. 
@@ -181,6 +182,9 @@ If that option is not available, you must disable the NIC. You can do this buy s
 
 <a name="phase-4"></a>
 
+<a name="phase-4"></a>
+<p align="right"><a href="#phase-5">⬇️ Next phase</a></p>  
+
 ### Phase 4: Initial Boot(Domain configuration)
 
 27. Before starting dc-01, disable the NIC just like we did in Phase 3: step 8.
@@ -221,6 +225,9 @@ Note: If you are using the minimum allocated resources you may experience sudden
 <img width="510" height="385" alt="ADHL-37" src="https://github.com/user-attachments/assets/96aed23f-b105-43cf-911c-1507fe719e85" />
 
 36. Completely shut down Windows or the Machine (**File > Close > Send the shutdown signal**) Do not save the Machine state.
+
+<a name="phase-5"></a>
+<p align="right"><a href="#phase-6">⬇️ Next phase</a></p>  
 
 ### Phase 5: Server Configuration
 
@@ -311,6 +318,9 @@ Your window should look as below, and it should say "Configuration required. Ins
 
 <img width="750" height="527" alt="ADHL-50" src="https://github.com/user-attachments/assets/02eb9028-9709-4873-a885-37ed1fe59b2d" />
 
+<a name="phase-6"></a>
+<p align="right"><a href="#phase-7">⬇️ Next phase</a></p>  
+
 ### Phase 6: Joining the Domain
 
 52.  We will now run the initial setup of wk-01.
@@ -329,6 +339,8 @@ Your window should look as below, and it should say "Configuration required. Ins
 
 Once you get the confirmation message you will be prompted to restart multiple times. Restart now to apply changes.  
 You will now have the option to login as "Other User" to ENTERPRISE.  
+
+<a name="phase-7"></a> 
 
 ### Phase 7: Creating our first Employee Account
 
