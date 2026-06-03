@@ -14,7 +14,7 @@
   * [Phase 6: Joining the Domain](#phase-6-joining-the-domain)
   * [Phase 7: Creating our first Employee Account](#phase-7-creating-our-first-employee-account)
 
-### Note: If, at any point, your cursor inside a Machine dissapears and nothing you do brings it back, either power off the machine, or send the shut down signal.
+### Note: If, at any point, your cursor inside a Machine dissapears and nothing you do brings it back, either power off the machine, or send the shut down signal. Then log back in, this should fix it. Otherwise, change your pointer method in Settings > System > Pointing Device
 
 ## Step-by-Step Deployment Guide
 
