@@ -96,7 +96,8 @@ The lab environment consists of two primary components configured within an isol
 <img width="661" height="149" alt="ADHL-9" src="https://github.com/user-attachments/assets/7309eeab-b3d7-44ce-92c2-8f01bc8bf6f9" />
 
 <a name="phase-3"></a>
-
+<p align="right"><a href="#phase-4">⬇️ Next phase</a></p>  
+  
 ### Phase 3: Initial Boot(Client configuration)
 
 8. Before the first boot, we must go into the settings and **disable the Network Adapter**. This forces Windows to skip signing signing in to a Microsoft account, instead we opt to create a local account.
