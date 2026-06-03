@@ -55,6 +55,9 @@ The lab environment consists of two primary components configured within an isol
 
 ## Step-by-Step Deployment Guide
 
+<a name="phase-1"></a>
+<p align="right"><a href="#phase-2">⬇️ Next phase</a></p>  
+
 ### Phase 1: Preparing the Installation Media
 
 1. Open the **Windows Media Creation tool**, run through the initial setup prompt, and accept the default license terms.  
@@ -62,6 +65,8 @@ The lab environment consists of two primary components configured within an isol
   
 2. When prompted, select **Create installation media (ISO file)**. This ensures the hypervisor can mount the operating system installer directly as a virtual disc image.  
 <img width="401" height="356" alt="ADHL-2" src="https://github.com/user-attachments/assets/4eed3808-7860-4309-a4a5-6f8a5295c17d" />  
+
+<a name="phase-2"></a>
   
 ### Phase 2: Hypervisor Configuration
   
@@ -88,6 +93,8 @@ The lab environment consists of two primary components configured within an isol
 <img width="661" height="136" alt="ADHL-8" src="https://github.com/user-attachments/assets/599acf42-4568-49a1-bab1-03aae437fccc" />
 
 <img width="661" height="149" alt="ADHL-9" src="https://github.com/user-attachments/assets/7309eeab-b3d7-44ce-92c2-8f01bc8bf6f9" />
+
+<a name="phase-3"></a>
 
 ### Phase 3: Initial Boot(Client configuration)
 
@@ -171,6 +178,8 @@ If that option is not available, you must disable the NIC. You can do this buy s
 26. We are now *done with our client work station. Fully shut down the machine.
 
 <img width="513" height="384" alt="ADHL-29" src="https://github.com/user-attachments/assets/76f6f467-ff33-4628-86af-051fa7088e0f" />
+
+<a name="phase-4"></a>
 
 ### Phase 4: Initial Boot(Domain configuration)
 
