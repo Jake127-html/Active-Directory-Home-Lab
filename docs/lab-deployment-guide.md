@@ -1,5 +1,7 @@
 [![Return Home](https://img.shields.io/badge/Return_To-Main_README-666666?style=for-the-badge&logo=github&logoColor=white)](../README.md)
 
+[![Next Step](https://img.shields.io/badge/Next_Step-Lab_Deployment_Continued-blue?style=for-the-badge&logo=virtualbox&logoColor=white)](lab-deployment-continued.md)
+
 <a name="top"></a>
 <p align="right"><a href="#bottom">⬇️ Bottom of Page</a></p>  
 
