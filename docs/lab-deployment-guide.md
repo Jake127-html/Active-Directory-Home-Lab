@@ -6,6 +6,9 @@
 <p align="right"><a href="#bottom">⬇️ Bottom of Page</a></p>  
 
 
+### Quick Summary
+This is part 1 of the lab which covers the initial set-up and configuration of Active Directory. For OU creation, NTFS file sharing, GPO, and other concepts refer to the "LAB DEPLOYMENT CONTINUED" button.
+
 
 ## 📌 Table of Contents
 * [1. Infrastructure Architecture](#1-infrastructure-architecture)
