@@ -64,13 +64,19 @@ Note: LHO is directly under the Domain.
   
 <img width="397" height="907" alt="ADHL-59" src="https://github.com/user-attachments/assets/a1cc71ff-dffa-4080-96f8-bf475ed68408" />  
 
-2. We're going to create our first batch of users. Open Users > Admin Users > Right Click > New > User > Create 2 Admin Users of your choice. The name can be anything but the logon names must be in the format of firstname.lastname(larry.bird, tim.cook, michael.jackson) & flast(first name initial and last name(lbird, tcook, mjackson)
+2. We're going to create our first batch of users. Open Users > Admin Users > Right Click > New > User > Create 2 Admin Users of your choice. The name can be anything but the logon names must be in the format of firstname.lastname(larry.bird, tim.cook, michael.jackson) & flast(first name initial and last name(lbird, tcook, mjackson.)
+  
+**Note**: Verify NO boxes are check marked.  The password must be at least 11 characters following NIST standards.
+  
+  
 <img width="437" height="377" alt="ADHL-61" src="https://github.com/user-attachments/assets/fbc0f7f5-d086-4452-aa02-25401012f604" />
 
+<img width="432" height="377" alt="image" src="https://github.com/user-attachments/assets/4a120bc9-cc07-4ed8-a81a-8cf884cc471a" />
+
+Now do the same thing for the other user directories and make 3-4 users per.
 
 
-
-
+<img width="940" height="456" alt="image" src="https://github.com/user-attachments/assets/93f2e43b-20a7-4655-8506-b7c5fc2cd64c" />
 
 
 
