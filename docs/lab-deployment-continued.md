@@ -37,22 +37,34 @@ Before continuing, take snapshot images of both machines through Machine > Take 
 
 1. Open server manager like how we pinned it to the taskbar earlier, navigate to Tools > Active Directory Users and Computers. Expand Enterprise.com and Right Click > New Organizational Unit > and name each OU as follows:
 
-```text
-└── LHO/
-    ├── Computers/
-    │   ├── Branch/
-    │   ├── Headquarters/
-    │   └── Remote/
-    ├── Groups/
-    ├── Servers/
-    ├── Service Accounts/
-    └── Users/
-        ├── Admin_users/
-        ├── HR_Users/
-        ├── IT_Users/
-        └── Sales_Users/
-```
+```mermaid
+graph TD
+    %% Main Parent OU
+    LHO[📂 LHO]
 
+    %% Second Level OUs
+    LHO --> Computers[📂 Computers]
+    LHO --> Groups[📂 Groups]
+    LHO --> Servers[📂 Servers]
+    LHO --> ServiceAccounts[📂 Service Accounts]
+    LHO --> Users[📂 Users]
+
+    %% Third Level OUs (Under Computers)
+    Computers --> Branch[📂 Branch]
+    Computers --> HQ[📂 Headquarters]
+    Computers --> Remote[📂 Remote]
+
+    %% Third Level OUs (Under Users)
+    Users --> Admin[📂 Admin_users]
+    Users --> HR[📂 HR_Users]
+    Users --> IT[📂 IT_Users]
+    Users --> Sales[📂 Sales_Users]
+
+    %% Styling for better readability
+    classDef default fill:#f9f9f9,stroke:#333,stroke-width:1px;
+    classDef mainOU fill:#e1f5fe,stroke:#0288d1,stroke-width:2px;
+    class LHO mainOU;
+```
 
 
 
