@@ -26,14 +26,32 @@ This is part 2 of the lab which covers the post-setup configuration of Active Di
 
 ## Step-by-step Configuration Guide
 
+### Pre-configuration
+
+Before continuing, take snapshot images of both machines through Machine > Take Snapshot. Label it pre-lab 2 and fill in the description with whatever you like. This is just in case we do something wrong or want to undo changes. We can load up a previous "save" of the Machines.
+
 <a name="phase-1"></a>
 <p align="right"><a href="#phase-2">⬇️ Next phase</a></p>  
 
-### Phase 1: Preparing the Installation Media
+### Phase 1: OUs
 
+1. Open server manager like how we pinned it to the taskbar earlier, navigate to Tools > Active Directory Users and Computers. Expand Enterprise.com and Right Click > New Organizational Unit > and name each OU as follows:
 
-
-
+```text
+└── LHO/
+    ├── Computers/
+    │   ├── Branch/
+    │   ├── Headquarters/
+    │   └── Remote/
+    ├── Groups/
+    ├── Servers/
+    ├── Service Accounts/
+    └── Users/
+        ├── Admin_users/
+        ├── HR_Users/
+        ├── IT_Users/
+        └── Sales_Users/
+```
 
 
 
