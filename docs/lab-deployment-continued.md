@@ -35,7 +35,7 @@ Before continuing, take snapshot images of both machines through Machine > Take 
 
 ### Phase 1: OUs
 
-1. Open server manager like how we pinned it to the taskbar earlier, navigate to Tools > Active Directory Users and Computers. Expand Enterprise.com and Right Click > New Organizational Unit > and name each OU as follows:
+1. Open server manager like how we pinned it to the taskbar earlier, navigate to Tools > Active Directory Users and Computers. Expand Enterprise.com and Right Click > New Organizational Unit > Make sure protect from accidental deletion is enabled! And name each OU as follows:
 
 ```
 Enterprise.com
