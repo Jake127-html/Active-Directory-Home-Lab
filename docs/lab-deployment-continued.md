@@ -7,7 +7,7 @@
 This is part 2 of the lab which covers the post-setup configuration of Active Directory. Including but not limited to NTFS file sharing, Organizational Units by department, groups, Group Policy Objects, and other hardening strategies.
 
 ## 📌 Table of Contents
-* [1. Infrastructure Architecture](#1-infrastructure-architecture)
+* [1. WIP.../all](#1-infrastructure-architecture)
 * [2. Key Skills Demonstrated](#2-key-skills-demonstrated)
 * [3. Prerequisites & Lab Assets](#3-prerequisites--lab-assets)
 * [4. Deployment Guide](#step-by-step-deployment-guide)
