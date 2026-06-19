@@ -38,6 +38,7 @@ Before continuing, take snapshot images of both machines through Machine > Take 
 1. Open server manager like how we pinned it to the taskbar earlier, navigate to Tools > Active Directory Users and Computers. Expand Enterprise.com and Right Click > New Organizational Unit > and name each OU as follows:
 
 ```
+Enterprise.com
 └── 📂 LHO/
     ├── 📂 Computers/
     │   ├── 📂 Branch
@@ -53,6 +54,7 @@ Before continuing, take snapshot images of both machines through Machine > Take 
         └── 📂 Sales_Users
 ```
 
+Note: LHO is directly under the Domain.
 
 
 
