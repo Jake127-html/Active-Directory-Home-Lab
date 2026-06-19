@@ -64,6 +64,8 @@ Note: LHO is directly under the Domain.
   
 <img width="397" height="907" alt="ADHL-59" src="https://github.com/user-attachments/assets/a1cc71ff-dffa-4080-96f8-bf475ed68408" />  
 
+2. We're going to create our first batch of users. Open Users > Admin Users > Right Click > New > User > Create 2 Admin Users of your choice. The name can be anything but the logon names must be in the format of firstname.lastname(larry.bird, tim.cook, michael.jackson) & flast(first name initial and last name(lbird, tcook, mjackson)
+<img width="437" height="377" alt="ADHL-61" src="https://github.com/user-attachments/assets/fbc0f7f5-d086-4452-aa02-25401012f604" />
 
 
 
