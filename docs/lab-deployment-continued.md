@@ -73,15 +73,24 @@ Note: LHO is directly under the Domain.
 
 <img width="432" height="377" alt="image" src="https://github.com/user-attachments/assets/4a120bc9-cc07-4ed8-a81a-8cf884cc471a" />
 
-Now do the same thing for the other user directories and make 3-4 users per.
+Now do the same thing for the other user directories and make 3-4 users per department.
 
 
 <img width="940" height="456" alt="image" src="https://github.com/user-attachments/assets/93f2e43b-20a7-4655-8506-b7c5fc2cd64c" />
 
+3. We will now create our global groups to assign users to and inheret permissions. Navigate to Enterprise.com > LHO > Groups > Right click Groups directory > New > Group > Create the following groups:
 
+- GG_Domain_Users
+- GG_HelpDesk
+- GG_HR_Users
+- GG_IT_Users
+- GG_Sales_Users
+- GG_Workstation_Admins
 
+<img width="407" height="215" alt="ADHL-64" src="https://github.com/user-attachments/assets/4fc9186c-927e-4adf-8e60-d1b2660ab4db" />
 
-
+4. Now we will add the users to the global groups. Navigate to HR_Users > Highlight all of them > Right click > Add to group > Type "GG_HR" and then hit Enter. Repeat this for all Departments so that each user is apart of a global group.
+<img width="487" height="555" alt="ADHL-65" src="https://github.com/user-attachments/assets/deffd302-c382-42ea-aaa6-733ebce0ab9d" />
 
 
 
