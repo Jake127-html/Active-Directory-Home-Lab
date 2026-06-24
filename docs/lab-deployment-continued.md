@@ -1,4 +1,4 @@
-### Lab etc.
+ ### Lab etc.
 
 [![Return to Part 1](https://img.shields.io/badge/Return_To-Part_1:_Lab_Deployment_Guide-666666?style=for-the-badge&logo=github&logoColor=white)](lab-deployment-guide.md)
 
@@ -91,6 +91,17 @@ Now do the same thing for the other user directories and make 3-4 users per depa
 
 4. Now we will add the users to the global groups. Navigate to HR_Users > Highlight all of them > Right click > Add to group > Type "GG_HR" and then hit Enter. Repeat this for all Departments so that each user is apart of a global group.
 <img width="487" height="555" alt="ADHL-65" src="https://github.com/user-attachments/assets/deffd302-c382-42ea-aaa6-733ebce0ab9d" />
+
+5. ⚠️I made a mistake ⚠️ Additionally create a "GG_IT_Admin" global group and only add Robert Davis to it and remove him from the "GG_HelpDesk" group so only David Lee and Mike Wilson remain. We're seperating the Help Desk employees from the IT Admin, who works in IT and Manages it, but doesn't actually deal with Help Desk tickets normally. 
+
+| Global Group Name | Department | Users |
+| :--- | :--- | :--- |
+| **GG_Domain_Users** | N/A | All Non-Admins |
+| **GG_HelpDesk** | IT |David Lee, Mike Wilson|
+| **GG_HR_Users** | HR | Emily Carter, John Smith, Sarah Johnson, Tray Parker |
+| **GG_IT_Admin** | IT Admin | Robert Davis |
+| **GG_Sales_Users** | Sales | Jane Miller, Mark Taylor, Tim Cook, Tom Brown |
+| **GG_Workstation_Admins** | Workstation Admins | David Willis, Jake Rivas |
 
 
 
